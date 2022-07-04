@@ -1,0 +1,212 @@
+#preloader {
+	background: #ffffff url("img/Loading.gif") no-repeat center center;
+	background-size: 30%;
+	height: 100vh;
+	width: 100%;
+    position: fixed;
+	z-index: 100
+    
+}
+
+.carousel-inner img {
+   margin-bottom: -120px;
+}
+.carousel-caption {
+margin: 160px;
+margin-right: 120px;
+
+}
+.carousel-caption h2 {
+    font-family: 'Pacifico', cursive;  
+}
+.navbar-brand  {
+    font-family: 'Pacifico', cursive;
+}
+.navbar img {
+    margin-right: 20px;
+}
+.kontak {
+    background-color: #2e2c2c;
+}
+.kontak img {
+    margin: 30px;
+}
+.kontak h6 {
+    font-size: 15px;
+}
+
+.Banner{
+    width: 100%;
+    height: 90vh;
+    background-image: url(./img/PROJEK-CILEGON-KOTA.mp4_000011752.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.banner-content h1 h2 p{
+    align-items: center;
+}
+/* Tentang */
+.Tentang {
+    margin-bottom: 5rem;
+    background-color: #ffffff;
+}
+.Tentang h6 {
+   margin-right: 0px;
+}
+.Tentang p {
+    padding-bottom: 10px;
+}
+.Tentang h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: 50px;
+}
+.Tentang img {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.row {
+margin-right: 0px;
+}
+/*walikota*/
+.walikota {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: #576F72;
+}
+.walikota img {
+    margin-left: -20px;
+}
+/* Layanan */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f2f2f2;
+}
+.Layanan {
+    background-color: rgb(242, 240, 255);
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+.layanan {
+    padding-bottom: 0rem;
+}
+
+
+/* Informasi menarik */
+.menarik {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+.menarik-col {
+    padding-top: 60px;
+    flex-basis: 32%;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 12px;
+    margin-left: 10px;
+}
+.menarik-col img {
+    width: 100%;
+    display: block;
+}
+.layer {
+    margin-top: 59px;
+    background: transparent;
+    height: 78%;
+    width: 93%;
+    margin-left: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgba(226,0,0,0.7);
+}
+.layer h3 {
+    width: 100%;
+    font-weight: 480;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+bottom: 43%;
+opacity: 1;
+}
+
+/*berita*/
+.Berita{
+    width: 100%;
+    height: 70vh;
+    background-image: url(./img/jalan.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.explore-content{
+width: 50%;
+padding: 50px;
+color: whitesmoke;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+.explore-content h1 {
+    font-size: 7vmin;
+}
+.explore-content p {
+    font-size: 3vmin;
+    
+}
+.explore-content .btn {
+    margin-top: 40px;
+    
+}
+.explore-content a {
+    margin-top: -40px;
+}
+
+/*contact*/
+.form h2 {
+margin-top: 4rem;
+}
+@media (min-width: 768px){
+    .container-popup {
+        width: 30%;
+    }
+}
+@media (max-width: 767px){
+    .container-popup {
+        width: 90%;
+    }
+    .tab button {
+  width: 50%;
+}
+}
